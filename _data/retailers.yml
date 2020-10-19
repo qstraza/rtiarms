@@ -1,0 +1,266 @@
+-   region: Europe
+    retailers:
+        -
+            id: 1
+            name: "De Bascule VOF"
+            street: "Utrechtlaan 9"
+            city: "4926 CK Lage Zwaluwe"
+            website:
+                - "https://luchtbuks.com"
+                - "http://www.airgunheaven.com"
+            email: "office@bascule.nu"
+            country: "Netherlands"
+            position:
+                - 51.707833
+                - 4.705324
+            represents:
+                - "Netherlands"
+                - "Belgium"
+        -
+            id: 2
+            name: "City Air Weapons"
+            street: "247 Lyndon Road"
+            city: "B92 7QP Solihull"
+            website:
+                - "http://www.cityairweapons.com"
+            email: "bob@cityairweapons.com"
+            phone: "+44 (0) 121 742 1329"
+            country: "United Kingdom"
+            position:
+                - 52.449228
+                - -1.794941
+            represents:
+                - "United Kingdom"
+        -
+            id: 3
+            name: "Eräliike Riistamaa Oy"
+            street: "Kotitontuntie 5"
+            city: "FI-02200 Espoo"
+            website:
+                - "http://www.riistamaa.fi/"
+            email: "riistamaa@riistamaa.fi"
+            phone: "+358-9-4110 1290"
+            country: "Finland"
+            position:
+                - 60.173449
+                - 24.767543
+            represents:
+                - "Finland"
+        -
+            id: 4
+            name: "Francisco Eizayaga"
+            email: "rtiarms@gmail.com"
+            phone: "+34685599540"
+            country: "Spain"
+            represents:
+                - "Spain"
+                - "Portugal"
+            region: "Europe"
+        -
+            id: 5
+            name: "Rojal.si"
+            street: "Ljubljanska cesta 32"
+            city: "Novo mesto"
+            website:
+                - "https://www.rojal.si"
+            email: "info@rojal.si"
+            phone: "+386 (0)7 3942 200"
+            country: "Slovenia"
+            position:
+                - 45.8172191
+                - 15.1553741
+            represents:
+                - "Slovenia"
+                - "Croatia"
+        -
+            id: 6
+            name: "JSC MT Baltic"
+            street: "Sudervės g.17, Avižienių km"
+            city: "LT-14192 Vilniaus r."
+            website:
+                - "http://mtbaltic.lt"
+            email: "sales@mtbaltic.lt"
+            phone: "+370 654 44443"
+            country: "Lithuania"
+            position:
+                - 54.762886
+                - 25.186714
+            represents:
+                - "Lithuania"
+                - "Estonia"
+                - "Latvia"
+        -
+            id: 7
+            name: "Gunpit.dk"
+            street: "Langelandsgade 96"
+            city: "6950 Ringkøbing"
+            website:
+                - "https://www.gunpit.dk"
+            email: "kundeservice@gunpit.dk"
+            phone: "+45 77 77 44 44"
+            country: "Denmark"
+            position:
+                - 56.082424
+                - 8.278470
+            represents:
+                - "Denmark"
+        -
+            id: 8
+            name: "STOCHOS HUNTING EQUIPMENT CO.LTD"
+            street: "LARNAKOS AVE.,57 A+B"
+            city: "2101 AGLANTZIA NICOSIA"
+            website:
+                - "http://stochosltd.com.cy"
+            email: "stochos@cablenet.com.cy"
+            phone: "+357 22 337570"
+            country: "Cyprus"
+            position:
+                - 35.158737
+                - 33.391303
+            represents:
+                - "Cyprus"
+        -
+            id: 9
+            name: "Redolfi Armeria"
+            street: "Strada Provinciale 668 km 28.310"
+            city: "25025 Manerbio (BS)"
+            website:
+                - "https://www.redolfiarmi.com"
+            email: "info@redolfiarmi.com"
+            phone: "+39 030 938 01 40"
+            country: "Italy"
+            position:
+                - 45.371427
+                - 10.163214
+            represents:
+                - "Italy"
+        -
+            id: 10
+            name: "COLOMBI SPORTS"
+            street: "13, Rue Gustave EIFFEL"
+            city: "30620 AUBORD"
+            website:
+                - "https://www.colombisports.com/"
+            email: "contact@colombisports.com"
+            phone: "+ 33 (0)4 66 81 00 18"
+            country: "France"
+            position:
+                - 43.760214
+                - 4.309379
+            represents:
+                - "France"
+        -
+            id: 11
+            name: "Marek Grzebski"
+            street: "Wincentego Pstrowskiego 19"
+            city: "11-041 Olsztyn"
+            website:
+                - "https://militarni.sklep.pl/"
+            email: "polgazolsztyn@wp.pl"
+            phone: "501-732-043"
+            country: "Poland"
+            position:
+                - 53.765481
+                - 20.493128
+            represents:
+                - "Poland"
+-   region: "North America"
+    retailers:
+        -
+            id: 12
+            name: "Airguns of Arizona AOA"
+            street: "1970 W Elliot Rd. Ste 109"
+            city: "Gilbert, AZ 85233"
+            website:
+                - "https://www.airgunsofarizona.com"
+            email: "sales@airgunsofarizona.com"
+            phone: "480-461-1113"
+            country: "USA"
+            position:
+                - 33.3503052
+                - -111.8326319
+            represents:
+                - "USA"
+        -
+            id: 13
+            name: "Sun City Airguns"
+            street: "Carlos Quintero Arce 85"
+            city: "Colonia el Llano, C.P. 83210, Hermosillo Sonora"
+            website:
+                - "http://suncityairguns.com.mx"
+            email: "suncityairguns@yahoo.com"
+            phone: "662 300 5954"
+            country: "Mexico"
+            position:
+                - 29.090011
+                - -111.007476
+            represents:
+                - "Mexico"
+-   region: "South America"
+    retailers:
+        -
+            id: 14
+            name: "WOLFIEK S.R.L"
+            website:
+                - "http://WWW.WOLFIEK.COM"
+            email: "info@wolfiek.com"
+            phone: "+54 91139109406"
+            country: "Argentina"
+            represents:
+                - "Argentina"
+                - "Brasil"
+                - "Peru"
+                - "Paraguay"
+                - "Uruguay"
+        -
+            id: 15
+            name: "RTIARMS CL"
+            email: "RTIARMS.CL@GMAIL.COM"
+            country: "Chile"
+            represents:
+                - "Chile"
+        -
+            id: 16
+            name: "Field Target SpA"
+            street: "Paseo Bulnes 241-G"
+            city: "Santiago"
+            website:
+                - "https://www.fieldtarget.cl"
+            email: "bulnes@fieldtarget.cl"
+            phone: "+569 933 773 965"
+            country: "Chile"
+            position:
+                - -33.449006
+                - -70.652801
+            represents:
+                - "Chile"
+-   region: "Africa"
+    retailers:
+        -
+            id: 17
+            name: "The Airgun Nut"
+            street: "2184 Waterfall Valley, no 1 Country Estate Drive"
+            city: "1682 Waterfall Midrand"
+            website:
+                - "http://airgunnut.co.za"
+            email: "sales@airgunnut.co.za"
+            phone: "0828554222"
+            country: "South Africa"
+            position:
+                - -26.020387
+                - 28.089706
+            represents":
+                - "South Africa"
+-   region: "Middle East"
+    retailers:
+        -
+            id: 18
+            name: "Gannas Al-Raheeb Airguns"
+            street: "Al-dajeej, Al-Arbeed Complex, ground floor"
+            city: "Kuwait City"
+            website: ""
+            email: "gannasalrheeb@gmail.com"
+            phone: "00965-99549922"
+            country: "Kuwait"
+            represents:
+                - "Kuwait"

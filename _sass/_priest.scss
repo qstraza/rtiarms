@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Cryptik;
+  src: local("Cryptik"),
+       url(/fonts/Cryptik.ttf);
+  font-weight: bold;
+}
+.priest{
+  .ui.segment.masthead {
+    h1{
+      font-family: Cryptik;
+      // font-size: 6.5em;
+    }
+  }
+}
+

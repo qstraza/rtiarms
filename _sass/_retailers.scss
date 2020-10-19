@@ -1,0 +1,26 @@
+.retailers{
+  #map {
+    height: 500px;
+    margin-bottom: 70px;
+  }
+  .address {
+    cursor: pointer;
+  }
+  .cards{
+    margin-top: 10px;
+
+    .card{
+      @media only screen and (max-width: 767px) {
+        border-bottom: 1px solid $gray !important;
+      }
+    }
+    .card:hover {
+      background-color: #e9e9e9;
+    }
+  }
+  .retailers-per-region-wrapper {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+

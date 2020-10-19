@@ -1,0 +1,28 @@
+<main-nav>
+  <!-- hamburger icon -->
+  <responsive-nav>
+    <!-- hamburger icon -->
+    <a href="#" class="hamburger">
+      <div class="ui black big launch right attached button">
+        <i class="icon list layout"></i>
+      </div>
+    </a>
+  </responsive-nav>
+
+  <!-- Following Menu -->
+  <div class="ui large top fixed hidden borderless inverted menu">
+    <div class="ui container">
+      <a href="/" class="item home"><span>RTI</span> Arms</a>
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="ui vertical inverted sidebar menu">
+      {% for item in site.data.navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>{{ item.name }}</a>
+      {% endfor %}
+  </div>
+</main-nav>

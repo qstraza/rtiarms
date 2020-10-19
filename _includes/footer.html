@@ -1,0 +1,33 @@
+<div class="ui inverted vertical footer segment">
+  <div class="ui container">
+    <div class="ui stackable inverted divided equal height stackable grid">
+      <div class="three wide column">
+        <h4 class="ui inverted header">Menu</h4>
+        <div class="ui inverted link list">
+          {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" class="item">{{ item.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="three wide column">
+        <h4 class="ui inverted header">Contact</h4>
+        <div class="row">
+          {{site.title}} <br/>
+          {{site.company_address}}<br/><br/>
+          <i class="mail square icon large"></i> <a class="item mail" href="mailto:{{site.email}}">{{site.email}}</a>
+        </div>
+      </div>
+      <div class="ten wide right aligned column">
+        <a class="ui large basic inverted circular icon button" href="{{site.facebook_link}}" target="_blank">
+          <i class="large facebook icon"></i>
+        </a>
+        <a class="ui large basic inverted circular icon button" href="{{site.instagram_link}}" target="_blank">
+          <i class="large instagram icon"></i>
+        </a>
+        <a class="ui large basic inverted circular icon button" href="mailto:{{site.email}}">
+          <i class="large mail icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

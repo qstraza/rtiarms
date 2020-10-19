@@ -1,0 +1,86 @@
+---
+layout: default
+title: Retailers
+permalink: /retailers
+---
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+<script src="{{site.googleMapsApi}}&callback=initMap&libraries=&v=weekly" defer></script>
+<script type="text/javascript" src="/assets/js/retailers.js"></script>
+<div class="retailers page-topmargin">
+  <div id="map"></div>
+
+  {% for item in site.data.retailers %}
+    {% for shop in retailers %}
+      <marker id='shop-{{shop.id}}' position="{{shop.position}}"
+        onclick="showDetail(shop)">
+      </marker>
+    {% endfor %}
+  {% endfor %}
+  <div id="marker-detail"></div>
+
+
+  <div class="ui text container ">
+    <h1 class="ui  header">
+      Retailers
+    </h1>
+    <!-- <h2>
+      We are actively looking for new dealers. Please feel free to contact us on our email.
+    </h2> -->
+  </div>
+
+  <div class="shops-container">
+    {% for item in site.data.retailers %}
+    <div class="retailers-per-region-wrapper">
+      <h2>
+        {{item.region}}
+      </h2>
+      <div class="ui stackable four column grid cards center aligned" >
+        {% assign retailers = item.retailers | sort: 'name' %}
+        {% for shop in retailers %}
+          {% for country in shop.represents %}
+          <div class="card three column card left aligned shop" data-retailer-id="{{shop.id}}" data-shop-name="{{shop.name}}" {% if shop.position %}data-position-lat="{{shop.position[0]}}" data-position-lng="{{shop.position[1]}}"{% endif %}>
+            <h2 class="leftmargin">{{country}}</h2>
+            <h3 class="leftmargin">{{shop.name}}</h3>
+            <div class="address">
+              {% if shop.street %}
+              <i class="map icon"></i>
+              {% endif %}
+              {{shop.street}}
+              <div class="leftmargin">
+                {{shop.city}} <br/>
+                {{shop.country}}
+              </div>
+            </div>
+
+            {% if shop.phone %}
+            <div>
+              <i class="phone icon"></i>
+              {{shop.phone}}
+            </div>
+            {% endif %}
+
+            {% if shop.email %}
+            <div>
+              <i class="mail icon"></i>
+              <a href="mailto:{{shop.email}}">{{shop.email}}</a>
+            </div>
+            {% endif %}
+
+            {% if shop.website %}
+            <div>
+              {% for website in shop.website %}
+              <div>
+                <i class="world icon"></i>
+                <a href="{{website}}">{{website}}</a>
+              </div>
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

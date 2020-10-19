@@ -1,0 +1,305 @@
+---
+---
+@import 'semantic.min';
+@import 'main';
+@import 'style';
+@import 'partials/variables';
+@import 'modal';
+@import 'retailers';
+@import 'productheader';
+@import 'prophet';
+@import 'priest';
+@import 'reg';
+@import 'stock';
+@import 'plenum';
+@import 'footer';
+@import 'fadein';
+@import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+
+
+
+// .container.ng-scope{
+//   margin-top: 46px;
+// }
+
+footnote{
+  font-size: 0.7em;
+  font-style: italic;
+}
+
+.ui.segment.bg-style {
+    background: url('/images/bgtr.svg') top right no-repeat,
+                url('/images/bgbl.svg') bottom left no-repeat,
+                url('/images/bgbl.svg') bottom left no-repeat,
+                url('/images/overlay.png'),
+                linear-gradient(45deg, #474135, #6e6d6e, rgb(0, 0, 0));
+}
+
+.ui.definition.table thead:not(.full-width) th:first-child{
+  box-shadow: none;
+}
+.ui.inverted.definition.table tfoot:not(.full-width) th:first-child, .ui.inverted.definition.table thead:not(.full-width) th:first-child{
+  background: none;
+}
+.ui.inverted.menu .item{
+  padding-top: 2em;
+}
+.home{
+  font-family: 'Black Ops One', cursive !important;
+  background: url(/images/priest/lynx-white-trans-100px.png) no-repeat 13px -3px !important;
+  /* width: 170px; */
+  background-size: 51px !important;
+  padding-left: 60px !important;
+
+
+  span{
+    font-family: 'Black Ops One', cursive !important;
+    font-size: 1.4em;
+    padding-right: 6px;
+    margin-top: -2px;
+  }
+}
+
+main-nav > div{
+  opacity: .9;
+}
+.top-wrapper img{
+  cursor: pointer;
+}
+.hamburger{
+  position: fixed;
+  z-index: 1000;
+  opacity: .7;
+  .button{
+    width: 50px;
+    border-top-right-radius: 0 !important;
+  }
+}
+@media only screen and (min-width: 700px){
+  .page-topmargin{
+    margin-top: 67px;
+  }
+}
+
+.no_selection {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.ui.grid>.row>.column>img, .ui.grid>.row>img {
+  width: auto;
+  height: auto;
+}
+
+@import url("http://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,600");
+
+/* custom syles */
+
+
+// .hidden.menu {
+//   display: none;
+// }
+
+.masthead.segment {
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.masthead .logo.item img {
+  margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+  margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+}
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.vertical.stripe {
+  padding: 8em 0em;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+  margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+  clear: both;
+}
+.ui.vertical.stripe p {
+  font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+  margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+  padding: 0em;
+}
+.quote.stripe.segment .grid .column {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.footer.segment {
+  padding: 5em 0em;
+}
+
+.secondary.pointing.menu .toc.item {
+  display: none;
+}
+
+.ui.secondary.inverted.pointing.menu {
+  border-width: 2px;
+  border-color: transparent;
+}
+
+@media only screen and (max-width: 700px) {
+  .ui.fixed.menu {
+    display: none !important;
+  }
+  .secondary.pointing.menu .item,
+  .secondary.pointing.menu .menu {
+    display: none;
+  }
+  .secondary.pointing.menu .toc.item {
+    display: block;
+  }
+  .masthead.segment {
+    min-height: 350px;
+  }
+  .masthead h1.ui.header {
+    font-size: 3em;
+    margin-top: 1.5em;
+  }
+  .masthead h2 {
+    margin-top: 0.5em;
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  responsive-nav {
+    display: none !important;
+  }
+}
+
+
+
+
+body, .ui *:not(.icon):not(b):not(strong){
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+
+}
+
+b, strong{
+  font-weight: 600;
+}
+
+.ui.segment.stripe p,
+.ui.segment.stripe blockquote,
+.ui.segment.stripe ul,
+.ui.segment.stripe ol,
+.ui.segment.stripe table,
+.ui.segment.stripe .ui.list{
+  font-size: 1.33em;
+}
+
+.ui.vertical.stripe h1 {
+  font-size: 2.4em;
+}
+.ui.vertical.stripe h2 {
+  font-size: 2.2em;
+}
+.ui.vertical.stripe h3 {
+  font-size: 2em;
+}
+.ui.vertical.stripe h4 {
+  font-size: 1.7em;
+}
+.ui.vertical.stripe h5 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.ui.button{
+  line-height: 1.2em;
+}
+
+.ui.massive.header{
+  font-size: 2.8rem;
+}
+
+.ui.table{
+  background-color: transparent;
+}
+
+.ui.segment.masthead {
+  // background: url('../images/header.jpg') center/cover no-repeat !important;
+}
+
+.ui.segment.masthead .ui.button{
+  margin-bottom: 1em;
+}
+
+blockquote{
+  border-left: solid 0.25em #e6e6e6;
+  padding: 1em 0 1em 2em;
+  font-style: italic;
+}
+
+.ui.segment.bg-style {
+
+  /* Fallback for <IE9 and other older browsers */
+  background: linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+
+  /* Multi-background supporting browsers */
+  background:
+     url('/images/bgtr.svg') top right no-repeat,
+     url('/images/bgbl.svg') bottom left no-repeat,
+     url('/images/bgbl.svg') bottom left no-repeat,
+     url('/images/overlay.png'),
+     linear-gradient(45deg, #474135, #6e6d6e, rgb(0, 0, 0));
+     ;
+}
+
+.ui.segment.bg-style .ui *{
+  color: rgba(255,255,255,.8);
+}
+
+.ui.segment.bg-style blockquote{
+  border-left-color: rgba(255, 255, 255, 0.5);
+}
+
+.ui.segment.bg-style .ui.list .item:before{
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.ui.segment.bg-style .ui.table th{
+  background: transparent;
+}
+
+
+.ui.segment.bg-style.darkblue-darkred{
+  background:
+   url('/images/bgtr.svg') top right no-repeat,
+   url('/images/bgbl.svg') bottom left no-repeat,
+   url('/images/bgbl.svg') bottom left no-repeat,
+   url('/images/overlay.png'),
+   linear-gradient(45deg, #474135, #6e6d6e, rgb(0, 0, 0));
+   ;
+}
+
+
+
