@@ -10,6 +10,7 @@ permalink: /retailers
   <div id="map"></div>
 
   {% for item in site.data.retailers %}
+    {% assign retailers = item.retailers | where_exp: 'item', 'item.deleted != 1' %}
     {% for shop in retailers %}
       <marker id='shop-{{shop.id}}' position="{{shop.position}}"
         onclick="showDetail(shop)">
@@ -35,7 +36,7 @@ permalink: /retailers
         {{item.region}}
       </h2>
       <div class="ui stackable four column grid cards center aligned" >
-        {% assign retailers = item.retailers | sort: 'name' %}
+        {% assign retailers = item.retailers | where_exp: 'item', 'item.deleted != 1' | sort: 'name' %}
         {% for shop in retailers %}
           {% for country in shop.represents %}
           <div class="card three column card left aligned shop" data-retailer-id="{{shop.id}}" data-shop-name="{{shop.name}}" {% if shop.position %}data-position-lat="{{shop.position[0]}}" data-position-lng="{{shop.position[1]}}"{% endif %}>
