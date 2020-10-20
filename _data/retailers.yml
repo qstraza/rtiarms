@@ -264,3 +264,18 @@
             country: "Kuwait"
             represents:
                 - "Kuwait"
+            deleted: 1
+        -
+            id: 19
+            name: "Abdullah Almejren Est."
+            street: "Block 11, St 172, Mariam Complex, Shop 1"
+            city: "Hawalli"
+            website: "https://www.instagram.com/aairguns/?hl=en"
+            email: "Airgunsws@gmail.com"
+            phone: "+965-65147160"
+            country: "Kuwait"
+            represents:
+                - "Kuwait"
+            position:
+                - 29.326234
+                - 48.014315
