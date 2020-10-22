@@ -221,18 +221,18 @@ function initMap() {
     marker.addListener("click", () => {
       closeAllMarkers();
       infowindow.open(map, marker);
+      map.setZoom(6);
     });
-  });
-
-  $(".shops-container .address").click(function(){
-    var title = $(this).closest(".shop").attr("data-shop-name");
-    if (!$("div[title='" + title + "']").length) return;
-    // Close all windows.
-    closeAllMarkers();
-    // Scroll up the browser.
-    $("html, body").animate({ scrollTop: 0 }, "slow", function(){
-      // Click on a info window...
-      $("div[title='" + title + "']").click();
+    $(".address", $(this)).click(function(){
+      closeAllMarkers();
+      // Scroll up the browser.
+      $("html, body").animate({ scrollTop: 0 }, "slow", function(){
+        // Click on a info window...
+        infowindow.open(map, marker);
+        var pos = map.getZoom();
+        map.setZoom(6);
+        map.setCenter(marker.getPosition());
+      });
     });
   });
 }

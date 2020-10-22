@@ -8,18 +8,6 @@ permalink: /retailers
 <script type="text/javascript" src="/assets/js/retailers.js"></script>
 <div class="retailers page-topmargin">
   <div id="map"></div>
-
-  {% for item in site.data.retailers %}
-    {% assign retailers = item.retailers | where_exp: 'item', 'item.deleted != 1' %}
-    {% for shop in retailers %}
-      <marker id='shop-{{shop.id}}' position="{{shop.position}}"
-        onclick="showDetail(shop)">
-      </marker>
-    {% endfor %}
-  {% endfor %}
-  <div id="marker-detail"></div>
-
-
   <div class="ui text container ">
     <h1 class="ui  header">
       Retailers
@@ -39,8 +27,8 @@ permalink: /retailers
         {% assign retailers = item.retailers | where_exp: 'item', 'item.deleted != 1' | sort: 'name' %}
         {% for shop in retailers %}
           {% for country in shop.represents %}
-          <div class="card three column card left aligned shop" data-retailer-id="{{shop.id}}" data-shop-name="{{shop.name}}" {% if shop.position %}data-position-lat="{{shop.position[0]}}" data-position-lng="{{shop.position[1]}}"{% endif %}>
-            <h2 class="leftmargin">{{country}}</h2>
+          <div class="card three column card left aligned shop" data-retailer-id="{{shop.id}}" data-shop-name="{{shop.name}}" data-position-lat="{{country[1][0]}}" data-position-lng="{{country[1][1]}}">
+            <h2 class="leftmargin">{{country[0]}}</h2>
             <h3 class="leftmargin">{{shop.name}}</h3>
             <div class="address">
               {% if shop.street %}

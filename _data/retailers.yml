@@ -10,12 +10,14 @@
                 - "http://www.airgunheaven.com"
             email: "office@bascule.nu"
             country: "Netherlands"
-            position:
-                - 51.707833
-                - 4.705324
             represents:
-                - "Netherlands"
-                - "Belgium"
+                "Netherlands":
+                    - 51.707833
+                    - 4.705324
+                "Belgium":
+                    - 50.784050
+                    - 4.603767
+
         -
             id: 2
             name: "City Air Weapons"
@@ -26,11 +28,10 @@
             email: "bob@cityairweapons.com"
             phone: "+44 (0) 121 742 1329"
             country: "United Kingdom"
-            position:
-                - 52.449228
-                - -1.794941
             represents:
-                - "United Kingdom"
+                "United Kingdom":
+                    - 52.449228
+                    - -1.794941
         -
             id: 3
             name: "Eräliike Riistamaa Oy"
@@ -41,11 +42,10 @@
             email: "riistamaa@riistamaa.fi"
             phone: "+358-9-4110 1290"
             country: "Finland"
-            position:
-                - 60.173449
-                - 24.767543
             represents:
-                - "Finland"
+                "Finland":
+                    - 60.173449
+                    - 24.767543
         -
             id: 4
             name: "Francisco Eizayaga"
@@ -53,8 +53,12 @@
             phone: "+34685599540"
             country: "Spain"
             represents:
-                - "Spain"
-                - "Portugal"
+                "Spain":
+                    - 40.322483
+                    - -3.242305
+                "Portugal":
+                    - 40.635389
+                    - -7.841827
             region: "Europe"
         -
             id: 5
@@ -66,12 +70,13 @@
             email: "info@rojal.si"
             phone: "+386 (0)7 3942 200"
             country: "Slovenia"
-            position:
-                - 45.8172191
-                - 15.1553741
             represents:
-                - "Slovenia"
-                - "Croatia"
+                "Slovenia":
+                    - 45.8172191
+                    - 15.1553741
+                "Croatia":
+                    - 45.743896
+                    - 16.402405
         -
             id: 6
             name: "JSC MT Baltic"
@@ -82,13 +87,16 @@
             email: "sales@mtbaltic.lt"
             phone: "+370 654 44443"
             country: "Lithuania"
-            position:
-                - 54.762886
-                - 25.186714
             represents:
-                - "Lithuania"
-                - "Estonia"
-                - "Latvia"
+                "Lithuania":
+                    - 54.762886
+                    - 25.186714
+                "Estonia":
+                    - 58.804544
+                    - 25.778159
+                "Latvia":
+                    - 56.958746
+                    - 25.069513
         -
             id: 7
             name: "Gunpit.dk"
@@ -99,11 +107,10 @@
             email: "kundeservice@gunpit.dk"
             phone: "+45 77 77 44 44"
             country: "Denmark"
-            position:
-                - 56.082424
-                - 8.278470
             represents:
-                - "Denmark"
+                "Denmark":
+                    - 56.082424
+                    - 8.278470
         -
             id: 8
             name: "STOCHOS HUNTING EQUIPMENT CO.LTD"
@@ -114,11 +121,10 @@
             email: "stochos@cablenet.com.cy"
             phone: "+357 22 337570"
             country: "Cyprus"
-            position:
-                - 35.158737
-                - 33.391303
             represents:
-                - "Cyprus"
+                "Cyprus":
+                    - 35.158737
+                    - 33.391303
         -
             id: 9
             name: "Redolfi Armeria"
@@ -129,11 +135,10 @@
             email: "info@redolfiarmi.com"
             phone: "+39 030 938 01 40"
             country: "Italy"
-            position:
-                - 45.371427
-                - 10.163214
             represents:
-                - "Italy"
+                "Italy":
+                    - 45.371427
+                    - 10.163214
         -
             id: 10
             name: "COLOMBI SPORTS"
@@ -144,11 +149,10 @@
             email: "contact@colombisports.com"
             phone: "+ 33 (0)4 66 81 00 18"
             country: "France"
-            position:
-                - 43.760214
-                - 4.309379
             represents:
-                - "France"
+                "France":
+                    - 43.760214
+                    - 4.309379
         -
             id: 11
             name: "Marek Grzebski"
@@ -159,11 +163,10 @@
             email: "polgazolsztyn@wp.pl"
             phone: "501-732-043"
             country: "Poland"
-            position:
-                - 53.765481
-                - 20.493128
             represents:
-                - "Poland"
+                "Poland":
+                    - 53.765481
+                    - 20.493128
 -   region: "North America"
     retailers:
         -
@@ -176,11 +179,10 @@
             email: "sales@airgunsofarizona.com"
             phone: "480-461-1113"
             country: "USA"
-            position:
-                - 33.3503052
-                - -111.8326319
             represents:
-                - "USA"
+                "USA":
+                    - 33.3503052
+                    - -111.8326319
         -
             id: 13
             name: "Sun City Airguns"
@@ -191,11 +193,10 @@
             email: "suncityairguns@yahoo.com"
             phone: "662 300 5954"
             country: "Mexico"
-            position:
-                - 29.090011
-                - -111.007476
             represents:
-                - "Mexico"
+                "Mexico":
+                    - 29.090011
+                    - -111.007476
 -   region: "South America"
     retailers:
         -
@@ -207,18 +208,31 @@
             phone: "+54 91139109406"
             country: "Argentina"
             represents:
-                - "Argentina"
-                - "Brasil"
-                - "Peru"
-                - "Paraguay"
-                - "Uruguay"
+                "Argentina":
+                    - -32.244756
+                    - -64.105913
+                "Brasil":
+                    - -8.326719
+                    - -50.945095
+                "Peru":
+                    - -8.984784
+                    - -75.216988
+                "Paraguay":
+                    - -22.988327
+                    - -58.422755
+                "Uruguay":
+                    - -32.491921
+                    - -56.029068
         -
             id: 15
             name: "RTIARMS CL"
             email: "RTIARMS.CL@GMAIL.COM"
             country: "Chile"
             represents:
-                - "Chile"
+                "Chile":
+                    - -33.709196
+                    - -71.078647
+            deleted: 1
         -
             id: 16
             name: "Field Target SpA"
@@ -229,11 +243,11 @@
             email: "bulnes@fieldtarget.cl"
             phone: "+569 933 773 965"
             country: "Chile"
-            position:
-                - -33.449006
-                - -70.652801
             represents:
-                - "Chile"
+                "Chile":
+                    - -33.449006
+                    - -70.652801
+
 -   region: "Africa"
     retailers:
         -
@@ -246,11 +260,10 @@
             email: "sales@airgunnut.co.za"
             phone: "0828554222"
             country: "South Africa"
-            position:
-                - -26.020387
-                - 28.089706
             represents":
-                - "South Africa"
+                "South Africa":
+                    - -26.020387
+                    - 28.089706
 -   region: "Middle East"
     retailers:
         -
@@ -275,7 +288,7 @@
             phone: "+965-65147160"
             country: "Kuwait"
             represents:
-                - "Kuwait"
-            position:
-                - 29.326234
-                - 48.014315
+                "Kuwait":
+                    - 29.326234
+                    - 48.014315
+
