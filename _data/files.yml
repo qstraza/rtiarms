@@ -1,7 +1,7 @@
 - name: Priest II
   files:
     - name: Exploded View
-      url: /assets/docs/Priest-II-Exploded.PDF
+      url: /assets/docs/Priest-II-Exploded.pdf
       icon: fire
     - name: Manual
       url: /assets/docs/priest-manual-min.pdf
@@ -10,7 +10,7 @@
 - name: Prophet
   files:
     - name: Exploded View
-      url: /assets/docs/Prophet-exploded.PDF
+      url: /assets/docs/Prophet-exploded.pdf
       icon: fire
     - name: Manual
       url: /assets/docs/prophet-manual-min.pdf
@@ -25,5 +25,5 @@
 - name: Priest I
   files:
     - name: Exploded View
-      url: /assets/docs/Priest-Exploded.PDF
+      url: /assets/docs/Priest-Exploded.pdf
       icon: fire
