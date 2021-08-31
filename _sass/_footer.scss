@@ -2,4 +2,24 @@
   .mail{
     color: $light-gray;
   }
+  #mc_embed_signup {
+    #mce-EMAIL {
+      background: none;
+      border: none;
+      border-bottom: 1px solid;
+      height: 30px;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+    button {
+      background: none;
+      border: 0;
+
+      i {
+        font-size: 1.2em;
+      }
+    }
+  }
 }
