@@ -18,6 +18,9 @@
 
 - name: Externally Adjustable Regulator
   files:
+    - name: Exploded View
+      url: /assets/docs/RegulatorPriestExploded.pdf
+      icon: fire
     - name: Manual
       url: /assets/docs/priest-regulator-manual-min.pdf
       icon: book
