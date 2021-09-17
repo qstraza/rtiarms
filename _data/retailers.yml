@@ -292,3 +292,20 @@
                     - 29.326234
                     - 48.014315
 
+-   region: "Asia"
+    retailers:
+        -
+            id: 20
+            name: "Aqua Green Co., LTD."
+            street: "848-0027 Saga-ken, Imari-shi"
+            city: "3269-2 Tachibana-cho"
+            website: "https://aqua-green.co.jp/rtiprophet/"
+            email: "okabe.33@kcd.biglobe.ne.jp"
+            phone: "0955-22-4738"
+            country: "Japan"
+            represents:
+                - "Japan":
+                    - 33.26744809940615
+                    - 129.88407543534055
+            deleted: 0
+
