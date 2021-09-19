@@ -304,7 +304,7 @@
             phone: "0955-22-4738"
             country: "Japan"
             represents:
-                - "Japan":
+                "Japan":
                     - 33.26744809940615
                     - 129.88407543534055
             deleted: 0
