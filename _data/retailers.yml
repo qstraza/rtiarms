@@ -167,6 +167,20 @@
                 "Poland":
                     - 53.765481
                     - 20.493128
+        -
+            id: 22
+            name: "HUNTEX GmbH"
+            street: "Alstertor 17"
+            city: "20095 Hamburg"
+            website:
+                - "https://hunt-ex.com/"
+            email: "info@hunt-ex.com"
+            phone: "+49 40 3231 049-0"
+            country: "Germany"
+            represents:
+                "Germany":
+                    - 53.79618139874818
+                    - 9.94656896863824
 -   region: "North America"
     retailers:
         -
