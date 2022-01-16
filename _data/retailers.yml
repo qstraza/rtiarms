@@ -309,3 +309,20 @@
                     - 129.88407543534055
             deleted: 0
 
+-   region: "Australasia"
+    retailers:
+        -
+            id: 21
+            name: "Deadeye Dicks Shooting Supplies"
+            street: "215 Heatherlea East Road"
+            city: "Levin 5571"
+            website: "www.deadeyedicks.co.nz"
+            email: "Skinit@deadeyedicks.co.nz"
+            phone: "06 367 8052"
+            country: "New Zealand"
+            represents:
+                "New Zealand":
+                    - -40.59553225632092
+                    - 175.32393295610856
+            deleted: 0
+
