@@ -6,12 +6,19 @@
 @import 'main';
 @import 'style';
 @import 'partials/variables';
+@import 'partials/helpers';
+@import 'partials/mixins';
+@import 'partials/normalize';
 @import 'modal';
+@import 'menu';
 @import 'retailers';
 @import 'productheader';
 @import 'prophet';
 @import 'priest';
 @import 'reg';
+@import 'bagrider';
+@import 'railextension';
+@import 'hush';
 @import 'stock';
 @import 'plenum';
 @import 'footer';
@@ -64,9 +71,6 @@ footnote{
   }
 }
 
-main-nav > div{
-  opacity: .9;
-}
 .top-wrapper img{
   cursor: pointer;
 }

@@ -1,3 +1,11 @@
+- name: Prophet II
+  files:
+    - name: Exploded View
+      url: /assets/docs/Prophet2-exploded.pdf
+      icon: fire
+    # - name: Manual
+    #   url: /assets/docs/prophet-manual-min.pdf
+    #   icon: book
 - name: Priest II
   files:
     - name: Exploded View
@@ -19,7 +27,7 @@
 - name: Externally Adjustable Regulator
   files:
     - name: Exploded View
-      url: /assets/docs/RegulatorPriestExploded.pdf
+      url: /assets/docs/RegulatorPriestExploded7.pdf
       icon: fire
     - name: Manual
       url: /assets/docs/priest-regulator-manual-min.pdf

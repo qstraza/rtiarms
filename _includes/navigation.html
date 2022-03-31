@@ -9,20 +9,38 @@
     </a>
   </responsive-nav>
 
-  <!-- Following Menu -->
-  <div class="ui large top fixed hidden borderless inverted menu">
-    <div class="ui container">
-      <a href="/" class="item home"><span>RTI</span> Arms</a>
-      {% for item in site.data.navigation %}
+  <div class="ui menu fixed">
+    <a href="/" class="item home"><span>RTI</span> Arms</a>
+    {% for item in site.data.navigation %}
+      {% if item.sub %}
+        <div class="ui pointing dropdown link item">
+          <span class="text">{{ item.name }}</span>
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            {% for sub in item.sub %}
+              <a href="{{ sub.link }}" {% if page.url == sub.link %}class="item active"{% else %}class="item"{% endif %}>{{ sub.name }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      {% else %}
         <a href="{{ item.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>{{ item.name }}</a>
-      {% endfor %}
-    </div>
+      {% endif %}
+    {% endfor %}
   </div>
 
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
       {% for item in site.data.navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>{{ item.name }}</a>
+        {% if item.sub %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="item active parent"{% else %}class="item parent"{% endif %}>{{ item.name }}</a>
+          <div>
+          {% for sub in item.sub %}
+            <a href="{{ sub.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>&nbsp;&nbsp;&nbsp;-{{ sub.name }}</a>
+          {% endfor %}
+          </div>
+        {% else %}
+          <a href="{{ item.link }}" {% if page.url == item.link %}class="item active"{% else %}class="item"{% endif %}>{{ item.name }}</a>
+        {% endif %}
       {% endfor %}
   </div>
 </main-nav>

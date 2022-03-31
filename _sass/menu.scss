@@ -1,0 +1,44 @@
+$menubg: #1b1c1d;
+$menubghover: rgba(255,255,255,.08);
+$textcolor: rgba(255,255,255,.9);
+main-nav {
+  .ui.menu {
+    background: $menubg;
+
+    margin: 0;
+    width: 100%;
+    display: table;
+    text-align: center;
+
+    &> .item {
+      display: inline-block !important;
+      float: none;
+      height: 65px;
+      padding-top: 2.2em;
+      color: $textcolor;
+    }
+    .item:hover, .dropdown.item:hover, .link.item:hover, a.item:hover {
+      color: white;
+      background: $menubghover;
+    }
+    .active.item, .marked.item {
+      background: $menubghover !important;
+      color: $textcolor !important;
+    }
+    .pointing.dropdown.item .menu {
+      background: $menubg;
+
+      &> .item {
+        color: $textcolor !important;
+      }
+      &> .item:hover {
+        color: white;
+        background: $menubghover !important;
+      }
+      &> .active.item {
+        background: $menubghover !important;
+        color: $textcolor !important;
+      }
+    }
+  }
+}

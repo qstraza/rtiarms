@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Files
+title: RTI - Files
 permalink: /files/
 ---
 
@@ -20,7 +20,7 @@ permalink: /files/
         {% for file in product.files %}
           <div class="card column left aligned file">
             <div class="content">
-              <a href="{{file.url}}" class="header">
+              <a href="{{file.url}}" target="_blank" class="header">
                 <i class="{{file.icon}} icon"></i>
                 {{file.name}}
               </a>

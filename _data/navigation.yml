@@ -1,17 +1,33 @@
-- name: Prophet
-  link: /prophet
+- name: Prophet&nbsp;II
+  sub:
+    - name: Prophet II
+      link: /prophet2
 
-- name: The Priest II
-  link: /priest
+    - name: Prophet II Compact
+      link: /prophet2-compact
 
-- name: Regulator
-  link: /reg
+- name: Priest II
+  link: /priest2
 
-- name: Extended Stock
-  link: /stock
+- name: Hušh Supressors
+  link: /hush
 
-- name: Plenum Extension
-  link: /plenum
+- name: Accessories
+  sub:
+    - name: Regulator
+      link: /reg
+
+    - name: Bipod Rail Extension with Arca Swiss Dovetail, Picatinny rail
+      link: /rail
+
+    - name: Bag Rider
+      link: /rider
+
+    - name: Extended Stock
+      link: /stock
+
+    - name: Plenum Extension
+      link: /plenum
 
 - name: Retailers
   link: /retailers

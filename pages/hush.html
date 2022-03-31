@@ -1,0 +1,109 @@
+---
+layout: default
+title: Hušh Suppressors
+permalink: /hush
+---
+
+<div class="pusher hush productheader">
+
+  <div id="top" class="ui inverted vertical masthead center aligned segment">
+
+    <div class="ui text container fadein">
+      <h1 class="ui inverted header">
+        Hušh Suppressors
+      </h1>
+      <!-- <h2>Awesome punch line</h2> -->
+      <!-- <div class="ui divider section hidden"></div> -->
+      <!-- <a href="#first" class="ui massive inverted button scrolly">Get Started</a>
+      <a href="#contact" class="ui massive inverted basic button scrolly">Contact us</a> -->
+    </div>
+    <img class="ui fluid image fadein" src="/images/hush/DSCF3981-Edit2.png"/>
+  </div>
+
+
+
+  <div id="first" class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row top-wrapper">
+        <div class="eight wide column">
+          <h3 class="ui header">Hušh Supressors - Carbon or ALU</h3>
+          <p class="desc">
+            Hušh Supressors are first supressors from new supressor line from RTI. They ensure great concentricity with the barrel by having a thread directly on the monocore of the suppressor.
+            In order to get greater accuracy, bipod should be mounted as far forwarder as possible. With Bipod Rail Extension you can now do that.
+          </p>
+          <p>With the suppressor two caps are included. One for up to cal 6.35mm (.25) and second up to cal 7.62mm (.30).</p>
+          <p>There are two variants. Super light weight true Carbonfibre suppressor which weight only 85 g (3,0 oz) and Alu Tac made by anodised Aluminium with aggresive cuts.</p>
+        </div>
+        <div class="six wide right floated column">
+          <a href="/images/hush/gallery/full/DSCF4025.jpg" data-lightbox="DSCF4025" data-title="">
+            <img src="/images/hush/gallery/small/DSCF4025.jpg" class="ui bordered rounded image" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="third" class="ui vertical stripe segment inverted bg-style">
+    <div class="ui equal widths stackable grid container">
+      <div class="row">
+        <h3 class="ui inverted header">Technical information
+        </h3>
+
+        <table class="ui definition table unstackable inverted selectable ">
+          <tbody>
+            <tr>
+              <td>
+                Tube Material
+              </td>
+              <td class="center aligned">Carbon Fiber</td>
+              <td class="center aligned">Alu Tac Aluminium</td>
+            </tr>
+            <tr>
+              <td>
+                Length
+                <div>mm</div>
+                <div>inch</div>
+              </td>
+              <td colspan="2" class="center aligned">155 mm<br/>6,1"</td>
+            </tr>
+            <tr>
+              <td>
+                Weight
+                <div>grams</div>
+                <div>oz</div>
+              </td>
+              <td class="center aligned">85 g<br/>3,0 oz</td>
+              <td class="center aligned">120 g<br/>4,2 oz</td>
+            </tr>
+            <tr>
+              <td>
+                Thread
+              </td>
+              <td colspan="2" class="center aligned">1/2-20 UNF</td>
+            </tr>
+        </tbody></table>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div id="sixth" class="ui vertical stripe segment bg-style gallery">
+    <div class="ui container">
+
+      <div class="ui three stackable cards">
+        {% for image in site.static_files %}
+          {% if image.path contains 'images/hush/gallery/small/' %}
+            <div class="card">
+              <div class="image">
+                <a href="/images/hush/gallery/full/{{ image.name }}" data-lightbox="gallery">
+                  <img class="" src="{{ image.path }}" alt="">
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>

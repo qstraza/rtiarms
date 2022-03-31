@@ -1,12 +1,7 @@
 ---
 layout: default
-title: Prophet
+title: Prophet II
 permalink: /
 ---
 
-{% for item in site.html_pages %}
-  {% if item.url == "/prophet" %}
-    {{item.content}}
-    {% break %}
-  {% endif %}
-{% endfor %}
+{% include prophet2.html %}
