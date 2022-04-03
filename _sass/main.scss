@@ -210,3 +210,10 @@ blockquote{
     height: auto;
     border-radius: inherit;
 }
+
+.technicalinfo .checkbox.toggle input:checked ~ label,
+.technicalinfo .checkbox.toggle input:focus:checked ~ label,
+.technicalinfo .checkbox.toggle input:focus ~ label,
+.technicalinfo .checkbox.toggle label,{
+  color: rgba(255, 255, 255, 0.8) !important;
+}

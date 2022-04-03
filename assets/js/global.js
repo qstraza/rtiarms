@@ -15,4 +15,15 @@ $(function(){
       action: 'nothing'
     });
   $('.ui.dropdown .item.active').parents(".ui.dropdown.item").addClass('marked');
+
+  $('.checkbox input').on('change', function (e){
+    $('.technicalinfo table .toggleunits').each(function(i) {
+      if ($(this).hasClass('hidden')) {
+        $(this).removeClass('hidden');
+      }
+      else {
+        $(this).addClass('hidden');
+      }
+    });
+  });
 });
