@@ -1,9 +1,3 @@
----
-layout: default
-title: RTI - Prophet II
-permalink: /prophet2
----
-
 <div class="pusher prophet productheader">
 
   <div id="top" class="ui inverted vertical masthead center aligned segment">
@@ -323,13 +317,18 @@ permalink: /prophet2
 
 
   <div id="third" class="ui vertical stripe segment inverted bg-style">
-    <div class="ui equal widths stackable grid container">
+    <div class="ui equal widths stackable grid container technicalinfo">
       <!-- <div class="row">
         <img class="ui fluid rounded image" src="/images/pic07.jpg" alt="">
       </div> -->
       <div class="row">
         <h3 class="ui inverted header">Technical information
-          <div><footnote>*Data are related between eachother, e.g. in .22 caliber at 180 bar you get 90J and 35 shots with 500ccm.</footnote></div>
+          <div><footnote>*Data are related between eachother, e.g. in .22 caliber at 180 bar you get 90J and 35 shots with 500ccm.<br/>
+          <div class="ui toggle checkbox">
+            <input type="checkbox" name="units">
+            <label>Metric/Imperial</label>
+          </div>
+          </footnote></div>
         </h3>
 
         <table class="ui definition table unstackable inverted selectable ">
@@ -337,26 +336,50 @@ permalink: /prophet2
             <tr>
               <td>
                 Caliber
-                <div>mm</div>
-                <div>inch</div>
+                <div class="toggleunits metric">mm</div>
+                <div class="toggleunits imperial hidden">inch</div>
               </td>
-              <td class="center aligned">4.5<br/>.177</td>
-              <td class="center aligned">5.5<br/>.22</td>
-              <td class="center aligned">6.35<br/>.25</td>
-              <td class="center aligned">7.62<br/>.30</td>
+              <td class="center aligned">
+                <span class="toggleunits metric">4.5</span>
+                <span class="toggleunits imperial hidden">.177</span>
+              </td>
+              <td class="center aligned">
+                <span class="toggleunits metric">5.5</span>
+                <span class="toggleunits imperial hidden">.22</span>
+              </td>
+              <td class="center aligned">
+                <span class="toggleunits metric">6.35</span>
+                <span class="toggleunits imperial hidden">.25</span>
+              </td>
+              <td class="center aligned">
+                <span class="toggleunits metric">7.62</span>
+                <span class="toggleunits imperial hidden">.30</span>
+              </td>
             </tr>
             <tr>
               <td>
                 Energy*
-                <div>Joules</div>
-                <div>Ft/lbs</div>
+                <div class="toggleunits metric">Joules</div>
+                <div class="toggleunits imperial hidden">Ft/lbs</div>
                 <br/>
                 <footnote>Rifle can also be bought in 7J, 16J, 20J or 24J</footnote>
               </td>
-              <td class="center aligned">30 - 50<br/>22 - 37</td>
-              <td class="center aligned">45 - 90<br/>35 - 65</td>
-              <td class="center aligned">60 - 105<br/>44 - 77</td>
-              <td class="center aligned">65 - 135<br/>48 - 100</td>
+              <td class="center aligned">
+                <span class="toggleunits metric">30 - 50</span>
+                <span class="toggleunits imperial hidden">22 - 37</span>
+              </td>
+              <td>
+                <span class="toggleunits metric">45 - 90</span>
+                <span class="toggleunits imperial hidden">35 - 65</span>
+              </td>
+              <td>
+                <span class="toggleunits metric">60 - 105</span>
+                <span class="toggleunits imperial hidden">44 - 77</span>
+              </td>
+              <td>
+                <span class="toggleunits metric">65 - 135</span>
+                <span class="toggleunits imperial hidden">48 - 100</span>
+              </td>
             </tr>
             <tr>
               <td>
