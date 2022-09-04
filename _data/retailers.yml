@@ -35,7 +35,7 @@
         -
             id: 3
             name: "Eräliike Riistamaa Oy"
-            street: "Kotitontuntie 5"
+            street: "Torpanmäki 3"
             city: "FI-02200 Espoo"
             website:
                 - "http://www.riistamaa.fi/"
@@ -237,6 +237,7 @@
                 "Uruguay":
                     - -32.491921
                     - -56.029068
+            deleted: 1
         -
             id: 15
             name: "RTIARMS CL"
