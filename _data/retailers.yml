@@ -198,6 +198,20 @@
                     - 33.3503052
                     - -111.8326319
         -
+            id: 22
+            name: "TalonTunes LLC"
+            street: "450 State Road 13 N, Suite 106, 169"
+            city: "St Johns, FL 32259"
+            website:
+                - "www.talontunes.com"
+            email: "tony@talontunes.com"
+            phone: "904-333-8643"
+            country: "USA"
+            represents:
+                "USA":
+                    - 30.119552686893453, 
+                    - -81.62697086854801
+        -
             id: 13
             name: "Sun City Airguns"
             street: "Carlos Quintero Arce 85"
