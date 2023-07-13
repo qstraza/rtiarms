@@ -1,3 +1,11 @@
+- name: P-3
+  sub:
+    - name: P-3
+      link: /p3
+
+    # - name: P-3 Compact
+    #   link: /p3-compact
+
 - name: Prophet&nbsp;II
   sub:
     - name: Prophet II
@@ -5,15 +13,6 @@
 
     - name: Prophet II Compact
       link: /prophet2-compact
-      
-- name: P-3
-  sub:
-    - name: P-3
-      link: /p3
-
-    - name: P-3 Compact
-      link: /p3-compact
-
 
 - name: Priest II
   link: /priest2
