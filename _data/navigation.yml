@@ -1,7 +1,8 @@
 - name: P-3
-  sub:
-    - name: P-3
-      link: /p3
+  link: /p3
+  # sub:
+  #   - name: P-3
+  #     link: /p3
 
     # - name: P-3 Compact
     #   link: /p3-compact
