@@ -1,11 +1,19 @@
+- name: P-3
+  files:
+    - name: Exploded View
+      url: /assets/docs/P3-exploded.pdf
+      icon: fire
+    - name: Manual
+      url: /assets/docs/p3-manual-min.pdf
+      icon: book
 - name: Prophet II
   files:
     - name: Exploded View
       url: /assets/docs/Prophet2-exploded.pdf
       icon: fire
-    # - name: Manual
-    #   url: /assets/docs/prophet-manual-min.pdf
-    #   icon: book
+    - name: Manual
+      url: /assets/docs/prophet2-manual-min.pdf
+      icon: book
 - name: Priest II
   files:
     - name: Exploded View
