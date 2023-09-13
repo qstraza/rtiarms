@@ -281,18 +281,19 @@
     retailers:
         -
             id: 17
-            name: "The Airgun Nut"
-            street: "2184 Waterfall Valley, no 1 Country Estate Drive"
-            city: "1682 Waterfall Midrand"
+            name: "Pellet-Guns.com"
+            street: "Plot 6B Kirschner Road, Benoni North A/H"
+            city: "Gauteng"
             website:
-                - "http://airgunnut.co.za"
-            email: "sales@airgunnut.co.za"
-            phone: "0828554222"
+                - "https://www.pellet-guns.com/"
+            email: "info@pellet-guns.com"
+            phone: "083 768 4359"
             country: "South Africa"
             represents:
                 "South Africa":
-                    - -26.020387
-                    - 28.089706
+                    - 26.1182714
+                    - 28.2986901
+
 -   region: "Middle East"
     retailers:
         -
