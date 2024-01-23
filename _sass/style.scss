@@ -4,6 +4,7 @@ Variables
 
 ******************************************************************/
 @import url(https://fonts.googleapis.com/css?family=Black+Ops+One);
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
 .modal .description {
   position: absolute;
   bottom: 0;
@@ -160,17 +161,14 @@ footnote {
 .ui.inverted.menu .item {
   padding-top: 2em; }
 
-.home {
-  font-family: 'Black Ops One', cursive !important;
-  background: url(/images/priest/lynx-white-trans-100px.png) no-repeat 13px -3px !important;
-  /* width: 170px; */
-  background-size: 51px !important;
-  padding-left: 60px !important; }
-  .home span {
-    font-family: 'Black Ops One', cursive !important;
-    font-size: 1.4em;
-    padding-right: 6px;
-    margin-top: -2px; }
+.home{
+  margin: 0;
+  padding: 6px 0px;
+
+  img {
+    width: 131px;
+  }
+}
 
 
 .top-wrapper img {
