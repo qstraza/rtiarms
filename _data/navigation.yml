@@ -1,3 +1,6 @@
+- name: Mora
+  link: /mora
+
 - name: P-3
   link: /p3
   # sub:
@@ -7,13 +10,13 @@
     # - name: P-3 Compact
     #   link: /p3-compact
 
-- name: Prophet&nbsp;II
-  sub:
-    - name: Prophet II
-      link: /prophet2
+# - name: Prophet&nbsp;II
+#   sub:
+#     - name: Prophet II
+#       link: /prophet2
 
-    - name: Prophet II Compact
-      link: /prophet2-compact
+#     - name: Prophet II Compact
+#       link: /prophet2-compact
 
 - name: Priest II
   link: /priest2
