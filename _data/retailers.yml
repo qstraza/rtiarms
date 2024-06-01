@@ -229,29 +229,29 @@
     retailers:
         -
             id: 14
-            name: "WOLFIEK S.R.L"
+            name: "Wolfiek Argentina"
             website:
-                - "http://WWW.WOLFIEK.COM"
-            email: "info@wolfiek.com"
+                - "https://wolfiekarg.com/"
+            email: "Wolfiekshop@gmail.com"
             phone: "+54 91139109406"
             country: "Argentina"
             represents:
                 "Argentina":
-                    - -32.244756
-                    - -64.105913
-                "Brasil":
-                    - -8.326719
-                    - -50.945095
-                "Peru":
-                    - -8.984784
-                    - -75.216988
-                "Paraguay":
-                    - -22.988327
-                    - -58.422755
-                "Uruguay":
-                    - -32.491921
-                    - -56.029068
-            deleted: 1
+                    - -34.4916279
+                    - -58.5489867
+                # "Brasil":
+                #     - -8.326719
+                #     - -50.945095
+                # "Peru":
+                #     - -8.984784
+                #     - -75.216988
+                # "Paraguay":
+                #     - -22.988327
+                #     - -58.422755
+                # "Uruguay":
+                #     - -32.491921
+                #     - -56.029068
+            deleted: 0
         -
             id: 15
             name: "RTIARMS CL"
