@@ -20,18 +20,18 @@
 
         -
             id: 2
-            name: "City Air Weapons"
-            street: "247 Lyndon Road"
-            city: "B92 7QP Solihull"
+            name: "Highland Outdoors"
+            street: ""
+            city: "Birmingham"
             website:
                 - "http://www.cityairweapons.com"
-            email: "bob@cityairweapons.com"
-            phone: "+44 (0) 121 742 1329"
+            email: "sales@highlandoutdoors.co.uk"
+            phone: "0345 099 0252"
             country: "United Kingdom"
             represents:
                 "United Kingdom":
-                    - 52.449228
-                    - -1.794941
+                    - 52.4974437
+                    - -2.0284346
         -
             id: 3
             name: "Eräliike Riistamaa Oy"
