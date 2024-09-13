@@ -11,9 +11,6 @@
             email: "office@bascule.nu"
             country: "Netherlands"
             represents:
-                "Netherlands":
-                    - 51.707833
-                    - 4.705324
                 "Belgium":
                     - 50.784050
                     - 4.603767
@@ -48,17 +45,14 @@
                     - 24.767543
         -
             id: 4
-            name: "Francisco Eizayaga"
-            email: "rtiarms@gmail.com"
+            name: "Wolfiek Group"
+            email: "info@wolfiekgroup.com"
             phone: "+34685599540"
             country: "Spain"
             represents:
                 "Spain":
                     - 40.322483
                     - -3.242305
-                "Portugal":
-                    - 40.635389
-                    - -7.841827
             region: "Europe"
         -
             id: 5
@@ -77,26 +71,26 @@
                 "Croatia":
                     - 45.743896
                     - 16.402405
-        -
-            id: 6
-            name: "JSC MT Baltic"
-            street: "Sudervės g.17, Avižienių km"
-            city: "LT-14192 Vilniaus r."
-            website:
-                - "http://mtbaltic.lt"
-            email: "sales@mtbaltic.lt"
-            phone: "+370 654 44443"
-            country: "Lithuania"
-            represents:
-                "Lithuania":
-                    - 54.762886
-                    - 25.186714
-                "Estonia":
-                    - 58.804544
-                    - 25.778159
-                "Latvia":
-                    - 56.958746
-                    - 25.069513
+        # -
+        #     id: 6
+        #     name: "JSC MT Baltic"
+        #     street: "Sudervės g.17, Avižienių km"
+        #     city: "LT-14192 Vilniaus r."
+        #     website:
+        #         - "http://mtbaltic.lt"
+        #     email: "sales@mtbaltic.lt"
+        #     phone: "+370 654 44443"
+        #     country: "Lithuania"
+        #     represents:
+        #         "Lithuania":
+        #             - 54.762886
+        #             - 25.186714
+        #         "Estonia":
+        #             - 58.804544
+        #             - 25.778159
+        #         "Latvia":
+        #             - 56.958746
+        #             - 25.069513
         -
             id: 7
             name: "Gunpit.dk"
@@ -139,20 +133,20 @@
                 "Italy":
                     - 45.371427
                     - 10.163214
-        -
-            id: 10
-            name: "COLOMBI SPORTS"
-            street: "13, Rue Gustave EIFFEL"
-            city: "30620 AUBORD"
-            website:
-                - "https://www.colombisports.com/"
-            email: "contact@colombisports.com"
-            phone: "+ 33 (0)4 66 81 00 18"
-            country: "France"
-            represents:
-                "France":
-                    - 43.760214
-                    - 4.309379
+        # -
+        #     id: 10
+        #     name: "COLOMBI SPORTS"
+        #     street: "13, Rue Gustave EIFFEL"
+        #     city: "30620 AUBORD"
+        #     website:
+        #         - "https://www.colombisports.com/"
+        #     email: "contact@colombisports.com"
+        #     phone: "+ 33 (0)4 66 81 00 18"
+        #     country: "France"
+        #     represents:
+        #         "France":
+        #             - 43.760214
+        #             - 4.309379
         -
             id: 11
             name: "Marek Grzebski"
@@ -168,7 +162,7 @@
                     - 53.765481
                     - 20.493128
         -
-            id: 22
+            id: 23
             name: "HUNTEX GmbH"
             street: "Alstertor 17"
             city: "20095 Hamburg"
@@ -181,6 +175,34 @@
                 "Germany":
                     - 53.79618139874818
                     - 9.94656896863824
+        -
+            id: 25
+            name: "jabolo GmbH"
+            street: "Franz-Leopold-Schecher-Str. 2"
+            city: "97288 Theilheim"
+            website:
+                - "https://jabolo.de/"
+            email: "info@jabolo.de"
+            phone: "09303980601"
+            country: "Germany"
+            represents:
+                "Germany":
+                    - 49.7543477
+                    - 10.0232926
+        -
+            id: 24
+            name: "2020 Supplies"
+            street: "Frankrijkstraat 14"
+            city: "5171 PR Kaatsheuvel"
+            website:
+                - "https://www.2020.supplies/"
+            phone: "+31 (0)416 53 75 41"
+            email: "+31 (0)416 53 75 41"
+            country: "Belgium"
+            represents:
+                "Netherlands":
+                    - 51.6643597
+                    - 5.0276741
 -   region: "North America"
     retailers:
         -
@@ -354,5 +376,20 @@
                 "New Zealand":
                     - -40.59553225632092
                     - 175.32393295610856
+            deleted: 0
+
+        -
+            id: 26
+            name: "Hermann's Sporting Guns P/L"
+            street: "P.O. Box 359, Mirboo North"
+            city: "Victoria, 3871"
+            website: "https://ozairguns.com.au/"
+            email: "info@hermannsguns.com.au "
+            phone: "(03) 56681940"
+            country: "Australia"
+            represents:
+                "Australia":
+                    - 38.3975861
+                    - 146.0992188
             deleted: 0
 
