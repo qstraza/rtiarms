@@ -1,3 +1,8 @@
+- name: Mora
+  files:
+    - name: Manual
+      url: /assets/docs/rti-mora-manual.pdf
+      icon: book
 - name: P-3
   files:
     - name: Exploded View
