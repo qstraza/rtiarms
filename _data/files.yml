@@ -1,8 +1,14 @@
 - name: Mora
   files:
     - name: Manual
-      url: /assets/docs/rti-mora-manual.pdf
+      url: /assets/docs/rti-mora-manual-v1.pdf
       icon: book
+    - name: Exploded View
+      url: /assets/docs/Mora-exploded-v1.pdf
+      icon: fire
+    - name: Exploded View Regulator
+      url: /assets/docs/RegulatorMoraExploded-2-10.pdf
+      icon: fire
 - name: P-3
   files:
     - name: Exploded View
@@ -40,7 +46,7 @@
 - name: Externally Adjustable Regulator
   files:
     - name: Exploded View
-      url: /assets/docs/RegulatorPriestExploded8.pdf
+      url: /assets/docs/RegulatorProphetExploded-2-10.pdf
       icon: fire
     - name: Manual
       url: /assets/docs/priest-regulator-manual-min.pdf
