@@ -234,6 +234,20 @@
                     - 30.119552686893453, 
                     - -81.62697086854801
         -
+            id: 27
+            name: "New England Airgun Inc."
+            street: "188 Central St Suite-2, Under the Water Tower"
+            city: "Hudson MA 01749"
+            website:
+                - "www.newenglandairguns.com"
+            #email: ""
+            phone: "+1 978-567-6970"
+            country: "USA"
+            represents:
+                "USA":
+                    - 42.396452752944604, 
+                    - -71.58515026329324
+        -
             id: 13
             name: "Sun City Airguns"
             street: "Carlos Quintero Arce 85"
